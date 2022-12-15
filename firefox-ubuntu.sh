@@ -1,4 +1,4 @@
-Apr update -y
+apt update -y
 echo "deb http://ftp.debian.org/debian buster main
 deb http://ftp.debian.org/debian buster-updates main" >> /etc/apt/sources.list
 apt install gnupg -y
