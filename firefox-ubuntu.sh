@@ -1,8 +1,7 @@
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list
-apt install gnupg -y
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DCC9EFBF77E11517
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AA8E81B4331F7F50
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 112695A0E562B32A
-apt update -y
-apt install firefox-esr -y
+sudo apt install gnupg -y
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 605C66F00D6C9793
+sudo apt update -y
+sudo apt install firefox-esr -y
