@@ -1,6 +1,4 @@
-apt update -y
-echo "deb http://ftp.debian.org/debian buster main
-deb http://ftp.debian.org/debian buster-updates main" >> /etc/apt/sources.list
+echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list
 apt install gnupg -y
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DCC9EFBF77E11517
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
