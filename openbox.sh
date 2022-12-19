@@ -1,5 +1,5 @@
 apt update -y
-apt install openbox feh dbus-x11 tigervnc-standalone-server -y
+apt install openbox nitrogen dbus-x11 tigervnc-standalone-server -y
 
 mkdir -p ~/.vnc
 echo "#!/bin/bash
