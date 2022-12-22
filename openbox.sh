@@ -8,9 +8,9 @@ export PULSE_SERVER=127.0.0.1
 export DISPLAY=:1
 XAUTHORITY=~/.Xauthority
 export XAUTHORITY                   
-openbox" > ~/.vnc/xstartup                                           
+openbox-session" > ~/.vnc/xstartup                                           
 chmod +x ~/.vnc/xstartup
-wget https://raw.githubusercontent.com/Techriz/AndronixOrigin/master/APT/LXDE/vncserver-start -O /usr/local/bin/vncserver-start                       
-wget https://raw.githubusercontent.com/Techriz/AndronixOrigin/master/APT/LXDE/vncserver-stop -O /usr/local/bin/vncserver-stop
+wget https://raw.githubusercontent.com/Mobile-Linux-Official/Dotconfig/main/vncserver-start -O /usr/local/bin/vncserver-start                       
+wget https://raw.githubusercontent.com/Mobile-Linux-Official/Dotconfig/main/vncserver-stop -O /usr/local/bin/vncserver-stop
 chmod +x /usr/local/bin/vncserver-start
 chmod +x /usr/local/bin/vncserver-stop
